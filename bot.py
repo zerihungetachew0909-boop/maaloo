@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, Con
 import pdfplumber
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8052976481:AAG8hgvPv2VjF_NDbwSK1vtlphYORdGXBdA")
 
 print("TOKEN:", TOKEN)  # debug
 # store extracted names
