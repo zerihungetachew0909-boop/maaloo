@@ -3,10 +3,10 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, ContextTypes, filters
 import pdfplumber
 import os
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 
-TOKEN = os.getenv("8052976481:AAG8hgvPv2VjF_NDbwSK1vtlphYORdGXBdA")
-
-print("TOKEN:", TOKEN)  # debug
+print("TOKEN:", TOKEN)
 # store extracted names
 names_list = []
 
